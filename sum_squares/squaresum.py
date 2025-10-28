@@ -10,6 +10,4 @@ def squaresum(value):
     return squareSum
 
 
-x = squaresum(928000)
-print("The answer of odd sums up to 928,000 is: ")
-print(x)
+print("The answer of odd squares up to 928,000 is: ", squaresum(928000))
